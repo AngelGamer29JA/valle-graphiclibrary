@@ -1,0 +1,33 @@
+{
+  "fmt": {
+    "files": {
+      "include": [],
+      "exclude": []
+    },
+    "options": {}
+  },
+  "lint": {
+    "files": {
+      "include": [],
+      "exclude": []
+    },
+    "rules": {
+      "tags": [],
+      "include": [],
+      "exclude": []
+    }
+  },
+  "tasks": {
+    "start": "deno run --unstable --import-map imports.deno.json --allow-all main.ts",
+    "test": "deno run --allow-ffi --allow-read --unstable --import-map imports.deno.json main_test.ts",
+    "test_rect": "deno run --allow-ffi --allow-read --unstable --import-map imports.deno.json test/test_rect.ts",
+    "build:rect": "deno compile --no-check --output dist/test_rect.exe --allow-ffi --allow-read --unstable --import-map imports.deno.json test/test_rect.ts"
+  },
+  "test": {
+    "files": {
+      "include": [],
+      "exclude": []
+    }
+  },
+  "compilerOptions": {}
+}

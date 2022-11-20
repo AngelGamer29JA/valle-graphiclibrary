@@ -1,0 +1,8 @@
+{
+    "imports": {
+        "path": "https://deno.land/std@0.163.0/path/mod.ts",
+        "platform": "./sdl2-ts/mod.deno.ts",
+        "skia": "https://deno.land/x/skia_canvas@0.2.0/mod.ts",
+        "Sundi": "./src/Window.ts"
+    }
+}
