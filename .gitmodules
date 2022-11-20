@@ -1,0 +1,3 @@
+[submodule "sdl2-ts"]
+    path = sdl2-ts
+    url = https://github.com/smack0007/sdl2-ts
